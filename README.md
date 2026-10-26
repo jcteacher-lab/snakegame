@@ -247,7 +247,7 @@ Deberías haber recibido una copia de la GNU General Public License junto con es
 - [GSimulador del sistema solar](https://github.com/jcteacher-lab/Sistemasolar) —
   Simulador interactivo del Sistema Solar en un único archivo HTML
 
-## 13. Autor
+## Autor
 
 **MTI. Juan Carlos Santiago Sánchez**
 - GitHub: [@jcteacher-lab](https://github.com/jcteacher-lab)
