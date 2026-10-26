@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake · 12 niveles</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="snake-core.js" defer></script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <main class="game">
+    <div id="wrap" class="wrap">
+      <canvas id="board" role="img" aria-label="Tablero del juego Snake"></canvas>
+
+      <section id="menu" class="screen" aria-labelledby="menuTitle">
+        <h1 id="menuTitle">🐍 SNAKE</h1>
+        <p id="menuInfo">12 niveles · skins</p>
+        <button id="play" type="button">Jugar</button>
+        <button id="cfgBtn" class="sec" type="button">Configuración</button>
+      </section>
+
+      <section id="cfg" class="screen" aria-labelledby="cfgTitle" hidden>
+        <h2 id="cfgTitle">Elegir skin</h2>
+        <div id="skins" class="skins"></div>
+        <button id="back" class="sec" type="button">Volver</button>
+      </section>
+
+      <section id="pause" class="screen" aria-labelledby="pauseTitle" hidden>
+        <h2 id="pauseTitle">⏸ Pausa</h2>
+        <button id="resume" type="button">Continuar</button>
+        <button id="pauseMenu" class="sec" type="button">Menú principal</button>
+      </section>
+
+      <section id="over" class="screen" aria-labelledby="ovTitle" hidden>
+        <h2 id="ovTitle">—</h2>
+        <p id="ovText"></p>
+        <button id="next" type="button">—</button>
+        <button id="menuBtn" class="sec" type="button">Menú principal</button>
+      </section>
+    </div>
+
+    <p class="help">Flechas o WASD para mover · P o Espacio para pausar · En móvil, desliza sobre el tablero</p>
+    <p id="status" class="sr-only" role="status" aria-live="polite"></p>
+  </main>
+</body>
+</html>

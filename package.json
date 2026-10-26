@@ -1,0 +1,10 @@
+{
+  "name": "snake-12-niveles",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Snake de 12 niveles con skins, lógica separada y pruebas automatizadas",
+  "scripts": {
+    "test": "node --test",
+    "coverage": "node --test --experimental-test-coverage"
+  }
+}
